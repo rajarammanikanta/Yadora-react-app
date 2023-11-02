@@ -71,3 +71,9 @@
     color: black;
     font-weight: bold;
 }
+
+@media screen and (max-width: 576px){
+    .button-container{
+        display: none;
+    }
+}
