@@ -248,12 +248,12 @@
         }
         .content-head{
             color:#FFB84C;
-            font-size: 22px;
+            font-size: 48px;
         }
         .content-desc{
             color: white;
             margin: 6px;
-            font-size: 22px;
+            font-size: 40px;
         }
         .content-card1{
             display: flex;
