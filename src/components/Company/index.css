@@ -1,0 +1,140 @@
+@media screen and (min-width: 577px){
+    .become-creator{
+        border-radius: 32px;
+    background: #2B2730;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    width: 50%;
+    }
+    
+    .company-cards{
+        display: flex;
+    }
+    
+    .company-container{
+        display: flex;
+        justify-content: space-around;
+        
+        padding: 150px;
+        
+    }
+    .company-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       margin: 16px;
+    }
+    
+    .company-second-container{
+        
+        border-radius: 32px;
+        background: #2B2730;
+        display: flex;
+    width: 1240px;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: white;
+    height: 250px;
+    margin-bottom: 150px;
+    }
+    
+    .company-overall-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .get-started-button{
+        border-radius: 32px;
+    background: #FFB84C;
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border-width: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+
+    *{
+        font-size: 12px;
+    }
+    
+    .company-overall-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .become-creator{
+        border-radius: 32px;
+    background: #2B2730;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    width: 50%;
+    }
+    .company-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 10px
+        
+    }
+    .company-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       margin: 16px;
+    }
+    .get-started-button{
+        border-radius: 32px;
+    background: #FFB84C;
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border-width: 0px;
+    }
+    .company-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    .company-second-container{
+        
+        border-radius: 32px;
+        background: #2B2730;
+        display: flex;
+    width: 100%;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: white;
+    height: 250px;
+    margin-bottom: 150px;
+    }
+    
+}
