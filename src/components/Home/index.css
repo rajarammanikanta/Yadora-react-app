@@ -176,7 +176,8 @@
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
-    line-height: 80px; /* 111.111% */
+    line-height: 80px;
+    margin: 3px 3px 3px 3px; /* 111.111% */
     }
     
     .video-calls-second{
