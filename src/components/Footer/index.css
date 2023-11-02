@@ -37,9 +37,7 @@
         font-size: 20px;
     
     }
-    h1,p{
-        font-size: 40px;
-    }
+   
 
 }
 
@@ -58,4 +56,11 @@
     align-items: center;
   margin-top: 80px;
   font-size: 22px;
+}
+
+
+@media screen and (max-width: 576px){
+    .head{
+        font-size: 30px;
+    }
 }

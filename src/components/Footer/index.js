@@ -7,7 +7,7 @@ const Footer = () => (
         <div className="overall-footer">
             <div className="Footer-container">
                 <div  className="below-cards">
-                    <h1>Yodora</h1>
+                    <h1 className="head">Yodora</h1>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M3 10.2V14.1875C3 16.8181 3 18.1334 3.59458 19.0984C3.92224 19.6301 4.36988 20.0778 4.90164 20.4054C5.86658 21 7.18189 21 9.8125 21H13.8C16.7998 21 18.2997 21 19.3511 20.2361C19.6907 19.9893 19.9893 19.6907 20.2361 19.3511C21 18.2997 21 16.7998 21 13.8V10.2C21 7.20021 21 5.70032 20.2361 4.64886C19.9893 4.30928 19.6907 4.01065 19.3511 3.76393C18.2997 3 16.7998 3 13.8 3H10.2C7.20021 3 5.70032 3 4.64886 3.76393C4.30928 4.01065 4.01065 4.30928 3.76393 4.64886C3 5.70032 3 7.20021 3 10.2Z" stroke="#2B2730" stroke-width="1.5" />
@@ -24,35 +24,35 @@ const Footer = () => (
                     </div>
                 </div>
                 <div className="below-cards">
-                    <h1>About</h1> 
+                    <h1 className="head">About</h1> 
                     <div>
-                        <p>How it works</p>
-                        <p>Company</p>
-                        <p>Help & support</p>
+                        <p className="head">How it works</p>
+                        <p className="head">Company</p>
+                        <p className="head">Help & support</p>
                     </div>
                 </div>
                 <div  className="below-cards">
-                    <h1>For creators</h1> 
+                    <h1 className="head">For creators</h1> 
                     <div>
-                        <p>How can i get paid</p>
-                        <p>Become a creator</p>
+                        <p className="head">How can i get paid</p>
+                        <p className="head">Become a creator</p>
           
                     </div>
                 </div>
                 <div  className="below-cards">
-                    <h1>Learn</h1> 
+                    <h1 className="head">Learn</h1> 
                     <div>
-                        <p>Blog</p>
-                        <p>Cookies policy</p>
-                        <p>Privacy policy</p>
+                        <p className="head">Blog</p>
+                        <p className="head">Cookies policy</p>
+                        <p className="head">Privacy policy</p>
                     </div>
                 </div>
                 <div  className="below-cards"> 
-                    <h1>Support</h1> 
+                    <h1 className="head">Support</h1> 
                     <div>
-                        <p>Services</p>
-                        <p>Report abuse</p>
-                        <p>
+                        <p className="head">Services</p>
+                        <p className="head">Report abuse</p>
+                        <p className="head">
                             Dispute a payment
                         </p>
                     </div>
